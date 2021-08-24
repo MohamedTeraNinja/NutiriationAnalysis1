@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_nav"
+    app:startDestination="@id/addDataAnalysisFragment">
+
+
+    <fragment
+        android:id="@+id/addDataAnalysisFragment"
+        android:name="com.mohammedragab.nutiriationanalysis1.analysisdata.AddDataNutritionAnalysisFragment"
+        android:label="AddDataAnalysisFragment"
+        tools:layout="@layout/add_nutrition_data"
+        />
+    <fragment
+        android:id="@+id/historyDataNutritionAnalysisFragment"
+        android:name="com.mohammedragab.nutiriationanalysis1.analysisdata.HistoryDataNutritionAnalysisFragment"
+        android:label="HistoryDataNutritionAnalysisFragment" >
+        <action
+            android:id="@+id/to_total_calculation"
+            app:destination="@id/totalCalculationNutritionAnalysisFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/totalCalculationNutritionAnalysisFragment"
+        android:name="com.mohammedragab.nutiriationanalysis1.analysisdata.TotalCalculationNutritionAnalysisFragment"
+        android:label="TotalCalculationNutritionAnalysisFragment" />
+</navigation>

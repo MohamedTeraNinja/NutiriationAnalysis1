@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">NutiriationAnalysis</string>
+    <string name="add_nutirition_data">Add Nutirition Data</string>
+    <string name="enter_ingredients">enter ingredients</string>
+    <string name="analyze">analyze</string>
+    <string name="new1">New</string>
+    <string name="history">History</string>
+    <string name="qty">QTY</string>
+    <string name="unit">Unit</string>
+    <string name="food">Food</string>
+    <string name="calories">Calories</string>
+    <string name="weight">Weight</string>
+
+    <string name="app_id">9ccbd0e3</string>
+    <string name="app_key">0c557ae103e80f95a368002aab0ac9d3</string>
+    <string name="nut_type">cooking</string>
+    <string name="no_network">no network</string>
+</resources>

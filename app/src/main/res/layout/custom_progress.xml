@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/progress"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:minWidth="1000dp"
+        android:minHeight="1000dp"
+        android:visibility="gone"
+        android:elevation="@dimen/dimen16"
+        android:background="#94C6C0C0"
+        android:layout_gravity="center_vertical|center_horizontal">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/lotie_id"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:elevation="@dimen/dimen16"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:background="@android:color/transparent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:lottie_autoPlay="true"
+            app:lottie_enableMergePathsForKitKatAndAbove="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/loading"
+            app:lottie_repeatMode="restart" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
